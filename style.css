@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 5fr; /* Düzeltildi: Boşlukla ayrıldı */
+  align-items: center;
+  padding: 10px;
+}
+
+.column-1 {
+  background-color: cornflowerblue;
+}
+
+.column-2 {
+  background-color: gainsboro;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  color: #fff;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+svg path {
+  fill: #fff;
+}
+
+.header {
+  padding: 10px;
+  margin: 10px;
+}
+.das {
+  padding-bottom: 20px;
+}
+
+.setting {
+  padding-top: 20px;
+}
