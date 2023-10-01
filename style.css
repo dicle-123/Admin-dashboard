@@ -145,3 +145,72 @@ img {
 .head-2 h5 {
   font-size: 1rem;
 }
+
+.row {
+  margin-top: 20px;
+}
+
+.heding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.hh {
+  margin-right: 260px;
+}
+
+.icon-svg {
+  width: 20px;
+  height: 20px;
+}
+
+.projects {
+  /* background-color: gainsboro; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  gap: 10px;
+}
+
+.make-col {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.proj_inpt {
+  background-color: aliceblue;
+  padding: 30px;
+  border-radius: 9px;
+  border-left: 8px solid goldenrod;
+  position: relative;
+  width: 24vw;
+  height: 20vh;
+}
+
+.svgs {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding-top: 20px;
+  margin-right: 10px;
+}
+.svgs svg {
+  margin-right: 10px;
+}
+
+.hh1 {
+  font-size: 1.5rem;
+}
+
+.bol {
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 9px;
+}
+
+.one {
+  border-bottom: 1px solid gainsboro;
+  margin-bottom: 25px;
+}
